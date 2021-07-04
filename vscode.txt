@@ -1,6 +1,11 @@
 Shift+Ctrl+p 打开搜索
+F1	打开搜索	
 CTRL-]	跳转到定义的函数
 CTRL-o  返回上一级跳转
+CTRL-w  关闭当前编辑页面
+CTRL-k z	进入禅宗模式
+CTRL-b	关闭资源管理器
+CTRL-j	关闭下方终端栏等
 gd	前往定义
 gh	产生跟鼠标相同的效果
 
