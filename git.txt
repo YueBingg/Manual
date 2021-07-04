@@ -1,0 +1,62 @@
+*********************本地基本操作*********************
+git init 初始化本地库
+git add 将工作区内容添加到暂存区
+git commit 将暂存区内容提交到本地库
+git commit -m “提交日志”
+*********************其他操作*********************
+git restory 撤销工作区更改
+git restory --staged 撤销缓存区的更改
+git stash 暂存工作现场
+git stash pop 恢复暂存工作
+git reset --hard 回至指定版本
+HEAD 当前版本
+HEAD~n 上n个版本
+*********************远程仓库*********************
+git remote add <name> <url>  添加远程仓库
+git remote 查看远程库信息
+git remote -v 查看远程库详细信息
+
+git push <name> <branch>推送到远程仓库
+git push orgin <tagname> 推送标签到远程
+git push origin --tags 推送所有本地标签
+git push orgin :refs/tags/<tagname> 删除一个远程标签
+
+git pull 远程抓取分支
+
+git clone 克隆到本地仓库
+
+git branch --set-upstream <branch> <origin/branch> 建立本地分支与远程分支的关联
+*********************分支管理*********************
+git branch 查看所有分支
+git branch -d 删除指定分支
+
+
+git checkout -b <branch> <origin/branch>创建新分支
+git checkout <branch> 切换到指定分支
+
+git switch -c <branch> 创建新分支
+git switch <branch>切换到指定分支
+
+git merge 合并指定分支到当前分支
+git cherry-pick 复制一个特定提交到当前分支
+*********************标签管理*********************
+git tag <tagname> [<head>]为当前版本打标签
+git tag -a <tagname> -m <info>
+git tag -d <tagname> 删除标签
+********************信息查看*********************
+git log 查看提交日志
+git reflog 历史命令
+git tag 查看所有标签信息
+git show <tagname> 查看标签信息
+git remote 查看远程库信息
+git branch 查看所有分支
+git log --graph 查看分支合并图
+git diff 比较工作区和暂存区的文件差异
+
+
+
+
+
+
+
+

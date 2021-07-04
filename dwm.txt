@@ -1,0 +1,14 @@
+alt+shift+enter 启动新terminal
+alt+shift+c 关闭当前窗口
+alt+j 切换窗口
+alt+k 切换窗口
+alt+h 向左缩放窗口
+alt+l 向右缩放窗口
+alt+d 减少主窗口区域
+alt+i 增加主窗口区域
+alt+enter 切换为主窗口
+alt+tab 标签间切换
+alt+t平铺模式
+alt+m全屏模式
+alt+shift+q 停止dwm
+alt+shift+number 将终端标定到标签上

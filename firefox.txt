@@ -1,0 +1,15 @@
+Alt + ← 后退
+Alt + → 前进
+Alt + Home 主页
+Alt + Num 切换标签页
+Tab 焦点移到下一个链接或输入框
+Shift + Tab 焦点移到上一个链接或输入框
+Space bar 下翻一页 
+Shift + Space bar 上翻一页
+Ctrl + ↓ 到达页尾
+Ctrl + ↑ 到达页首 
+F6 地址栏
+Ctrl + K 地址栏
+Ctrl + Tab 标签叶间切换
+Ctrl + W 关闭标签页
+Ctrl + T 新建标签页

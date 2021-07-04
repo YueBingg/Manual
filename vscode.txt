@@ -1,0 +1,20 @@
+Shift+Ctrl+p 打开搜索
+CTRL-]	跳转到定义的函数
+CTRL-o  返回上一级跳转
+gd	前往定义
+gh	产生跟鼠标相同的效果
+
+vim-surround
+d s <existing>
+c s <existing> <desired>
+S <desired>
+
+vim-commentary
+gcc	行注释
+gc<motion>	注释
+gC	块注释
+
+vim-sneak
+s<char><char>	跳转到指定字符
+<operator>z<char><char>	执行操作到指定字符
+;	执行上一次跳转

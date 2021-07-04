@@ -1,0 +1,96 @@
+i	当前光标插入
+a	光标后插入
+o	下一行插入
+I	行首插入
+A	行尾插入
+O	上一行插入
+
+.	执行上一步操作
+>>	行右缩进
+>>	行左缩进
+>	可视模式下缩进
+
+w	下一个单词开头
+e	当前单词结尾
+b	前一个单词开头
+0	绝对行首
+^	行首
+$	行尾
+gg	第一行
+G	最后一行
+CTRL-D	向下移动半屏
+CTRL-U	向上移动半屏
+f	向左查找一行某个字符出现位置
+F	向右查找一行某个字符出现位置
+;	重复上一次f查找操作
+
+<operators><motiions>
+d	w 删除单词
+d	e 
+d	$ 
+c	e 删除单词并进入插入模式
+c	$
+<number><motion>
+2	w
+3	e
+	0 
+<operators><number><motion>
+d	2	w
+c	3	w
+c	a	w	删除所在位置单词
+y	a	w	复制所在位置单词
+
+
+dd	删除一整行
+2dd	 删除两行
+
+u	撤销
+U	恢复一行开始的样子
+CTRL-R 	恢复
+
+"+y 	复制到系统剪切盘
+p	粘贴
+
+r	替换
+R	连续替换
+
+/	从上往下查找
+？	从下往上查找
+n	下一个
+N	上一个
+%	匹配括号
+
+:!command 	执行shell命令
+
+:s/old/new/g	全部替换
+:s/old/new	替换第一个
+:s/old/new/gc	替换前询问
+
+:w filename	文件另存为、选中的文字另存为
+
+:r	插入对应内容
+:r filename 	将文件内容插入当前位置
+:r !command 	将命令返回结果插入当前位置
+
+set xxx	设置
+'ic'	'ignorecase'	查找忽略大小写
+'is'	'incsearch'		查找是局部匹配
+'hls’	'hlsearch'		标量匹配结果
+'no'+	设置		取消设置
+'sc'	'showcmd'	普通模式显示记录
+:help	帮助系统
+CTRL-W-W	跳至另一个窗口
+命令模式下CTRL-D TAB	补全命令
+
+
+
+	
+
+
+
+
+
+
+
+
+
