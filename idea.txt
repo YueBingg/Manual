@@ -1,0 +1,10 @@
+vim-sneak 
+s <char><char> 跳转到指定字符
+S <char><char> 反向跳转
+;	跳转至下个字符
+,	跳转至上个字符
+
+gd  查看定义
+gs	查看父方法
+gi	查看接口的实现
+cc	注释
